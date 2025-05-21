@@ -103,32 +103,6 @@
     },
     {
       "parameters": {
-        "mode": "insert",
-        "tableName": {
-          "__rl": true,
-          "value": "pilares",
-          "mode": "list",
-          "cachedResultName": "pilares"
-        },
-        "options": {}
-      },
-      "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
-      "typeVersion": 1.1,
-      "position": [
-        436,
-        -20
-      ],
-      "id": "161d15af-f03c-47b6-96a9-ce35d10f260b",
-      "name": "Supabase Vector Store1",
-      "credentials": {
-        "supabaseApi": {
-          "id": "nc1CbqCMNCqQThR5",
-          "name": "Supabase account"
-        }
-      }
-    },
-    {
-      "parameters": {
         "model": "text-embedding-ada-002",
         "options": {}
       },
@@ -282,7 +256,7 @@
     },
     {
       "parameters": {
-        "content": "## Agnte RAG to answer with the informations in database",
+        "content": "## Agent RAG to answer with the informations in database",
         "height": 840,
         "width": 840,
         "color": 5
@@ -295,6 +269,32 @@
       "typeVersion": 1,
       "id": "95b65739-123e-4bef-8146-c0d06a4f4e40",
       "name": "Sticky Note1"
+    },
+    {
+      "parameters": {
+        "mode": "insert",
+        "tableName": {
+          "__rl": true,
+          "value": "pilares",
+          "mode": "list",
+          "cachedResultName": "pilares"
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.vectorStoreSupabase",
+      "typeVersion": 1.1,
+      "position": [
+        436,
+        -20
+      ],
+      "id": "161d15af-f03c-47b6-96a9-ce35d10f260b",
+      "name": "Supabase Vector Store1",
+      "credentials": {
+        "supabaseApi": {
+          "id": "nc1CbqCMNCqQThR5",
+          "name": "Supabase account"
+        }
+      }
     }
   ],
   "pinData": {},
@@ -441,7 +441,7 @@
   "settings": {
     "executionOrder": "v1"
   },
-  "versionId": "06e7fed3-86a9-43da-96d0-28e86e9cfe36",
+  "versionId": "030142d5-60c8-4ffb-820c-13fffb9e106c",
   "meta": {
     "templateCredsSetupCompleted": true,
     "instanceId": "a750912c08c0fb588d20508d858099b211d24a473541eb3e6d646b975ac199ff"
