@@ -32,4 +32,5 @@ The system is divided into two main flows:
 
 
 ## 📸 Workflow Preview
-![image](https://github.com/user-attachments/assets/5e04880a-4955-43af-bcc4-1106538c5f83)
+![image](https://github.com/user-attachments/assets/f999b84c-f853-4221-bf79-791f9bae3d08)
+
